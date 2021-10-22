@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulario Falso AEMET
+</title>
+</head>
+<body>
+<form method=get action=http://www.aemet.es/es/buscador>
+ <label for="lugar">Seleccione una ciudad española para saber su meteorología</label>
+<br><br>
+<select name="str" id="ciudad">
+  <option value="Madrid">Madrid</option>
+  <option value="Barcelona">Barcelona</option>
+  <option value="Valencia">Valencia</option>
+  <option value="Málaga">Málaga</option>
+</select> 
+    <br><br>
+    <input type="submit" placeholder="enviar" Name="enviar">
+</form>
+</body>
+</html>
